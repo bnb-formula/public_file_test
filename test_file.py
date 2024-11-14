@@ -4,7 +4,7 @@ def name():
   return name_input
 
 def age():
-  age_input = input("Enter your age: ")
+  age_input = int(input("Enter your age: "))
   
   if age_input < 15:
     print(f"You are a kid. Your age: {age_input}")
